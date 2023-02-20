@@ -7,8 +7,26 @@ The intention for this exercise is to understand a bit more about how you work a
 We have designed this exercise to take approximately 2 hours of your time.
 If the exercise is not completed in full, feel free to add some notes as a markdown file explaining why and how you would have continued with more time.
 
+---
+
+## Creating your workspace
+We are utilising Github's template repository feature. Please create your own copy of this repository by clicking the **"Use this Template"** button and selecting the **"Create a new repository"** option.
+
+![Github usage](github-use-template.png)
+
+When you are done, please submit the URL to your Github repo back to us.
+
+---
+
 ## Where to start
-Please head over to read the [instructions](INSTRUCTIONS.md), please also note the [context](CONTEXT.md) file we have provided for your notes.
+- Please head over to read the [instructions](INSTRUCTIONS.md)
+- Also consider the [context](CONTEXT.md) file we have provided for your notes
+- Familiarise yourself with the [Figma design file](https://www.figma.com/file/WFMXl8yxXxaBSIZomBxMaE/Country-select-exercise?node-id=0%3A1&t=RrNUTcCA67HM6gnC-0) that shows the desired outcome
+  - We have added 2 preview screenshots to this repository but the Figma design file is the source of truth and contains all values, like colours or padding, needed to build the components
+  - [Dropdown states preview](Dropdown%20states%20preview.png)
+  - [Dropdown values preview](Dropdown%20values%20preview.png)
+
+---
 
 ## How to get running
 
