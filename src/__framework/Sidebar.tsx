@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { html as instructions } from "../../INSTRUCTIONS.md";
+import Instructions from "../../INSTRUCTIONS.md";
 import styles from "./Sidebar.module.css";
 
 export function Sidebar() {
@@ -52,7 +52,7 @@ export function Sidebar() {
       </div>
       <div className={styles.content}>
         <p className={styles.caption}>Exercise: Country Dropdown</p>
-        <div dangerouslySetInnerHTML={{ __html: instructions }} />
+        <Instructions />
       </div>
     </aside>
   );
