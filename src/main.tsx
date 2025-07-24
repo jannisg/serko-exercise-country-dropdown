@@ -6,7 +6,7 @@ import { Layout } from "./__framework/Layout";
 const prepare = async (): Promise<void> => {
   if (import.meta.env.DEV) {
     const { worker } = await import("./__framework/mocks/browser");
-    worker.start();
+    await worker.start();
   }
 };
 
@@ -16,6 +16,6 @@ prepare().then(() => {
       <Layout>
         <App />
       </Layout>
-    </React.StrictMode>
+    </React.StrictMode>,
   );
 });
